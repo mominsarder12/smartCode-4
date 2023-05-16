@@ -53,21 +53,24 @@ h1,h2,h3,h4,h5,h6{
     font-size: 1.3rem;
 }
 .btn-hero{
-    border-radius: 35px;
+    border-radius: 2rem;
     background-color: $primaryColor;
     color: $darkColor;
     padding: 0.8rem 3.5rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.06rem;
     
     &:hover{
         background-color: $secondaryColor;
         color: #fff;
     }
 }
+.bi:before{
+    margin-right: 0.18rem;
+}
 .text-box{
     padding: 1.2rem;
     border-radius: 0.6rem;
-    border: 1px solid $primaryColor;
+    border: 0.06rem solid $primaryColor;
     background: rgba($color: #d4cccc, $alpha: 0.3);
 }

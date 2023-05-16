@@ -10,8 +10,8 @@
        transition: 0.4s;
         
     ul.social{
-        margin: 0 0 250px;
-        padding: 0 20px 0 0;
+        margin: 0 0 15rem;
+        padding: 0 1.2rem 0 0;
         text-align: right;
         li{
             margin-bottom: 1rem;
@@ -19,7 +19,7 @@
         }
         a{
             color: $darkColor;
-            font-size: 20px;
+            font-size: 1.2rem;
             &:hover{
                 color: $lightColor;
                
@@ -27,12 +27,12 @@
         }
       }
       .card-title{
-        margin: 0 0 15px;
+        margin: 0 0 1rem;
       }
       .card-text{
         font-weight: $fs-md;
         font-size: 0.9rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.06rem;
         margin: 0;
 
       }

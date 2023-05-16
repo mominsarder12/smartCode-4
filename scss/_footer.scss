@@ -3,16 +3,16 @@
     color: #fff;
     position: relative;
     h4{
-        font-size: 20px;
-        margin-bottom: 25px;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
     }
    p{
 color: $lightColor;
    }
    i{
-    margin-right: 10px;
+    margin-right: 0.6rem;
     &:before{
-        margin-right: 5px;
+        margin-right: 0.3rem;
     }
    }
 
@@ -27,16 +27,16 @@ color: $lightColor;
     span{
         display: block;
         color: #fff;
-        font-size: 12px;
-        margin-left: 15px;
+        font-size: 0.8rem;
+        margin-left: 0.9rem;
         &:before{
             content: "";
             
             display: inline-block;
-            width: 20px !important;
-            height: 1px;
-            border: 1px solid $primaryColor;
-            margin-right: 3px;
+            width: 1.2rem !important;
+            height: 0.06rem;
+            border:  0.06rem solid $primaryColor;
+           
     }
         }
        
@@ -50,7 +50,7 @@ input{
 input[type="submit"]{
     background-color: $primaryColor;
     width: 100%;
-    padding: 15px;
+    padding: 1rem;
     transition: 0.5s;
     color: $darkColor;
     &:hover{
@@ -61,7 +61,7 @@ input[type="submit"]{
 .bottom{
     .copyright{
         color: #fff;
-        font-size: 14px;
+        font-size: 0.9rem;
         transition: 0.3s;
         text-transform: capitalize;
         &:hover{
@@ -71,10 +71,10 @@ input[type="submit"]{
     .top{
         margin: 0;
         position: absolute;
-        right: 10px;
-        bottom: 10px;
+        right: 0.6rem;
+        bottom:0.6rem;
         a{
-            font-size: 30px;
+            font-size: 1.8rem;
             color: $primaryColor;
             transition: 0.2s;
             &:hover{

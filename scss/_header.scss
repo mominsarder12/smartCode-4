@@ -5,13 +5,13 @@
 }
 #navigation-menu{
     background-color: $lightColor;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 0 10px #ddd;
+    border-bottom: 0.06rem solid #ddd;
+    box-shadow: 0 0 0.6rem #ddd;
     
 }
 #main-menu{
     li{
-        margin: 0 8px;
+        margin: 0 0.5rem;
     }
     a{
         font-weight: $fs-md;
