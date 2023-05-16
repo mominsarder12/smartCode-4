@@ -1,0 +1,26 @@
+.navbar-brand{
+    img{
+        max-width: 200px;
+    }
+}
+#navigation-menu{
+    background-color: $lightColor;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+    
+}
+#main-menu{
+    li{
+        margin: 0 8px;
+    }
+    a{
+        font-weight: $fs-md;
+        font-size: 1rem;
+        color: $darkColor;
+        text-transform: capitalize;
+
+    }
+    a.active{
+        color: $primaryColor;
+    }
+}

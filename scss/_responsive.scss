@@ -1,0 +1,66 @@
+@media (min-device-width:200px) and (max-device-width:800px) {
+    .title{
+        font-size: 2rem;
+    }
+    
+    .title-md{
+        font-size: 2rem;
+        
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
+    .btn-hero {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    .title-sm{
+        font-size: 1.25rem;
+        
+    }
+    #about,
+    #service,
+    #project,
+    #team {
+        padding-top: 2.5rem;
+    } 
+    #service{
+        .col-md-4{
+            margin-bottom: 1.2rem;
+        }
+    }
+
+    #team{
+        .col-md-4{
+            margin-bottom: 1.2rem;
+            .card{
+                img{
+                    position: relative !important;
+            width: 100% !important;
+                }
+                .card-body{
+                    height: auto;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column-reverse;
+        ul.social{
+            margin: 0;
+            flex-direction: column;
+            text-align: left;
+            
+            li{
+                display: inline-block;
+                padding: 10px 5px;
+            }
+        }
+       
+                }
+            }
+        }
+    }
+    #newsletter {
+        .col-md-8{
+            margin-bottom: 25px;
+        }
+    }
+}

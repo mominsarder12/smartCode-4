@@ -1,0 +1,18 @@
+#newsletter{
+    align-items: center;
+    background-color: $secondaryColor;
+    h4{
+        margin: 0;
+        color: white;
+    }
+    button{
+        background: #fff;
+        color: $darkColor;
+        margin: 0;
+        padding: 15px 60px;
+        &:hover {
+            background-color: $primaryColor;
+            color: #fff;
+        }
+    }
+}
